@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "deno task dev:api & deno task dev:vite",
-    "dev:api": "deno run --allow-env --allow-net api/main.ts",
+    "dev:api": "deno run --allow-env --allow-read --allow-net api/main.ts",
     "dev:vite": "deno run -A npm:vite",
     "build": "tsc -b && vite build",
+    "serve": "deno task build && deno task dev:api",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

@@ -3,6 +3,7 @@
   "packages": {
     "specifiers": {
       "jsr:@oak/commons@^1.0": "jsr:@oak/commons@1.0.0",
+      "jsr:@oak/oak": "jsr:@oak/oak@17.0.0",
       "jsr:@oak/oak@^17.0.0": "jsr:@oak/oak@17.0.0",
       "jsr:@std/assert@^1.0": "jsr:@std/assert@1.0.6",
       "jsr:@std/bytes@^1.0": "jsr:@std/bytes@1.0.2",
@@ -27,6 +28,7 @@
       "npm:react-dom@^18.3.1": "npm:react-dom@18.3.1_react@18.3.1",
       "npm:react-router-dom@^6.26.2": "npm:react-router-dom@6.26.2_react@18.3.1_react-dom@18.3.1__react@18.3.1",
       "npm:react@^18.3.1": "npm:react@18.3.1",
+      "npm:typescript@5.6.2": "npm:typescript@5.6.2",
       "npm:typescript@^5.2.2": "npm:typescript@5.6.2",
       "npm:vite": "npm:vite@5.4.8",
       "npm:vite@5.4.8": "npm:vite@5.4.8",
